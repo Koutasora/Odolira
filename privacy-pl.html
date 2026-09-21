@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Odolira — Polityka prywatności</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    line-height: 1.6;
+    color: #1b1b1b;
+    background: #fafafa;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #eaeaea; background: #121212; } a { color: #7fb2ff; } }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.15rem; margin-top: 2em; }
+  .updated { color: #777; font-size: 0.9rem; }
+  .lang-switch { margin-bottom: 24px; }
+  ul { padding-left: 1.2em; }
+</style>
+</head>
+<body>
+  <p class="lang-switch"><a href="index.html">&larr; Odolira</a> &middot; <a href="privacy-en.html">English version</a></p>
+
+  <h1>Polityka prywatności aplikacji Odolira</h1>
+  <p class="updated">Ostatnia aktualizacja: 21 września 2026</p>
+
+  <p>Odolira to aplikacja na Androida do zarządzania rowerami, planowania tras i nawigacji rowerowej. Aplikacja
+  jest zaprojektowana tak, by działać lokalnie: nie wymaga zakładania konta, nie loguje się do żadnej usługi
+  Odolira (bo taka usługa nie istnieje) i nie zawiera żadnych bibliotek analitycznych, reklamowych ani
+  śledzących.</p>
+
+  <h2>Jakie dane są zbierane i gdzie są przechowywane</h2>
+  <p>Rowery, trasy (zaplanowane, nagrane, zaimportowane), zdjęcia rowerów i ustawienia aplikacji są przechowywane
+  wyłącznie lokalnie na Twoim urządzeniu (lokalna baza danych oraz pamięć wewnętrzna aplikacji). Żadne z tych
+  danych nie są wysyłane na serwery Odolira — nie posiadamy takich serwerów. Możesz w każdej chwili usunąć
+  wszystkie dane aplikacji w Ustawieniach ("Usuń wszystkie dane") lub przez odinstalowanie aplikacji.</p>
+
+  <h2>Lokalizacja GPS</h2>
+  <p>Aplikacja prosi o dostęp do lokalizacji, aby:</p>
+  <ul>
+    <li>pokazać Twoją pozycję na mapie i prowadzić nawigację turn-by-turn,</li>
+    <li>nagrywać przejechaną trasę (dystans, wysokość, ślad GPS) podczas aktywnego nagrywania,</li>
+    <li>wyznaczać trasy rowerowe na podstawie punktu startowego i docelowego.</li>
+  </ul>
+  <p>Lokalizacja jest wykorzystywana tylko w tle działania danej funkcji (nagrywanie/nawigacja) poprzez usługę
+  pierwszoplanową z widoczną, stałą powiadomieniem — aplikacja nie prosi o dostęp do lokalizacji w tle
+  (nie zbiera pozycji, gdy nie jest aktywnie używana). Współrzędne używane do wyznaczenia trasy lub wyszukania
+  miejsca są przesyłane do zewnętrznych, niezależnych usług routingu i geokodowania opisanych niżej — nigdy do
+  serwera Odolira.</p>
+
+  <h2>Usługi zewnętrzne, z których korzysta aplikacja</h2>
+  <p>Do działania map, wyszukiwania miejsc i wyznaczania tras Odolira korzysta z niezależnych, publicznych usług
+  trzecich. Gdy z nich korzystasz, przesyłane są do nich niezbędne dane (np. współrzędne, tekst wyszukiwania) —
+  zgodnie z politykami prywatności tych usług, niezależnymi od Odoliry:</p>
+  <ul>
+    <li><strong>OpenFreeMap / OpenMapTiles</strong> — kafelki mapy,</li>
+    <li><strong>BRouter</strong> — wyznaczanie tras rowerowych i dane o nawierzchni,</li>
+    <li><strong>Nominatim i Photon (OpenStreetMap)</strong> — wyszukiwanie i geokodowanie adresów/miejsc,</li>
+    <li><strong>Waymarked Trails</strong> — opcjonalna nakładka ze szlakami rowerowymi (tylko gdy włączysz ją ręcznie).</li>
+  </ul>
+  <p>Wszystkie dane geograficzne pochodzą z OpenStreetMap i licencjonowanych na jej bazie usług.</p>
+
+  <h2>Mikrofon</h2>
+  <p>Aplikacja może poprosić o dostęp do mikrofonu wyłącznie wtedy, gdy dotkniesz ikony wyszukiwania głosowego
+  przy wpisywaniu miejsca docelowego. Nagranie jest przetwarzane przez systemową usługę rozpoznawania mowy
+  Androida i nie jest zapisywane ani wysyłane przez Odolirę.</p>
+
+  <h2>Powiadomienia</h2>
+  <p>Podczas nagrywania przejazdu lub aktywnej nawigacji aplikacja wyświetla lokalne powiadomienie (pauza/wznów/
+  zakończ). Powiadomienia te są generowane wyłącznie na urządzeniu i nie pochodzą z żadnego serwera push.</p>
+
+  <h2>Udostępnianie danych</h2>
+  <p>Odolira nie sprzedaje ani nie udostępnia Twoich danych osobowych ani danych o trasach żadnym firmom
+  reklamowym ani analitycznym. Aplikacja nie zawiera SDK-ów reklamowych, analitycznych ani do raportowania
+  awarii firm trzecich.</p>
+
+  <h2>Dzieci</h2>
+  <p>Aplikacja nie jest kierowana do dzieci i nie zbiera świadomie danych osobowych dzieci.</p>
+
+  <h2>Zmiany w polityce prywatności</h2>
+  <p>Jeśli zakres zbieranych danych się zmieni, ta strona zostanie zaktualizowana wraz z nową datą na górze.</p>
+
+  <h2>Kontakt</h2>
+  <p>Pytania dotyczące prywatności: <a href="mailto:rafal.maligranda@gmail.com">rafal.maligranda@gmail.com</a></p>
+</body>
+</html>
