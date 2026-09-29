@@ -4,7 +4,7 @@ title: Odolira – Privacy Policy
 
 # Polityka prywatności aplikacji Odolira
 
-*Ostatnia aktualizacja: 27 września 2026*
+*Ostatnia aktualizacja: 29 września 2026*
 
 Odolira to prywatny "garaż" rowerów, planer tras i nawigacja rowerowa, która działa lokalnie na Twoim telefonie. Ta strona opisuje wprost, jakie dane aplikacja przetwarza i dlaczego — bez konta, bez profilowania, bez sprzedawania danych.
 
@@ -15,6 +15,7 @@ Odolira to prywatny "garaż" rowerów, planer tras i nawigacja rowerowa, która 
 Rowery, trasy (zaplanowane, nagrane, zaimportowane), historia serwisowa, zdjęcia rowerów, opcjonalne zdjęcie tła ekranu głównego i ustawienia aplikacji są przechowywane **wyłącznie lokalnie**, w bazie danych na Twoim urządzeniu. Nie zakładamy dla Ciebie konta, nie wymagamy logowania i nie synchronizujemy niczego z żadną chmurą.
 
 - **Rowery, trasy i historia serwisowa** — tylko lokalnie, nigdy nie opuszczają urządzenia.
+- **Nagranie w toku** — podczas nagrywania przejazdu aplikacja tymczasowo zapisuje przebieg na telefonie, aby można było go odzyskać po nagłym zamknięciu aplikacji. Zapis ten pozostaje wyłącznie na urządzeniu i jest usuwany po zakończeniu lub odrzuceniu nagrania.
 - **Biometria** — odblokowanie odciskiem palca lub twarzą obsługuje system Android. Aplikacja nie otrzymuje ani nie przechowuje żadnych danych biometrycznych, dostaje tylko informację, czy weryfikacja się udała.
 - **Konto / logowanie** — nie istnieje, aplikacja działa bez konta.
 - **Analityka i reklamy** — brak, zero trackingu, zero SDK reklamowych.
@@ -70,7 +71,7 @@ Pytania dotyczące prywatności możesz kierować na adres: [elment.android@gmai
 
 # Odolira – Privacy Policy
 
-*Last updated: September 27, 2026*
+*Last updated: September 29, 2026*
 
 Odolira is a private bike garage, route planner, and cycling navigation app that runs locally on your phone. This page states plainly what data the app processes and why — no account, no profiling, no selling data.
 
@@ -79,6 +80,7 @@ Odolira is a private bike garage, route planner, and cycling navigation app that
 Your bikes, routes (planned, recorded, imported), service history, bike photos, an optional home-screen background photo, and app settings are kept **strictly on-device**, in a local database. We don't create an account for you, don't require sign-in, and don't sync anything to any cloud.
 
 - **Bikes, routes and service history** — local only, never leave the device.
+- **Recording in progress** — while you record a ride, the app temporarily saves its progress on the phone so it can be recovered if the app is closed unexpectedly. This stays on the device only and is deleted when the recording is finished or discarded.
 - **Biometrics** — fingerprint or face unlock is handled by Android. The app never receives or stores any biometric data, only whether verification succeeded.
 - **Account / sign-in** — none, the app works without an account.
 - **Analytics & ads** — none, zero tracking, zero ad SDKs.
