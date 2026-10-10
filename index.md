@@ -4,7 +4,7 @@ title: Odolira – Privacy Policy
 
 # Polityka prywatności aplikacji Odolira
 
-*Ostatnia aktualizacja: 29 września 2026*
+*Ostatnia aktualizacja: 10 października 2026*
 
 Odolira to prywatny "garaż" rowerów, planer tras i nawigacja rowerowa, która działa lokalnie na Twoim telefonie. Ta strona opisuje wprost, jakie dane aplikacja przetwarza i dlaczego — bez konta, bez profilowania, bez sprzedawania danych.
 
@@ -16,6 +16,7 @@ Rowery, trasy (zaplanowane, nagrane, zaimportowane), historia serwisowa, zdjęci
 
 - **Rowery, trasy i historia serwisowa** — tylko lokalnie, nigdy nie opuszczają urządzenia.
 - **Nagranie w toku** — podczas nagrywania przejazdu aplikacja tymczasowo zapisuje przebieg na telefonie, aby można było go odzyskać po nagłym zamknięciu aplikacji. Zapis ten pozostaje wyłącznie na urządzeniu i jest usuwany po zakończeniu lub odrzuceniu nagrania.
+- **Nawigacja w toku** — podczas nawigacji aplikacja tymczasowo zapisuje na telefonie trasę, zaliczone punkty kontrolne i przejechany odcinek, aby można było wznowić jazdę po nagłym zamknięciu aplikacji. Zapis pozostaje wyłącznie na urządzeniu i jest usuwany po zapisaniu lub odrzuceniu przejazdu.
 - **Biometria** — odblokowanie odciskiem palca lub twarzą obsługuje system Android. Aplikacja nie otrzymuje ani nie przechowuje żadnych danych biometrycznych, dostaje tylko informację, czy weryfikacja się udała.
 - **Konto / logowanie** — nie istnieje, aplikacja działa bez konta.
 - **Analityka i reklamy** — brak, zero trackingu, zero SDK reklamowych.
@@ -28,7 +29,9 @@ Współrzędne potrzebne do wyznaczenia trasy lub wyszukania miejsca są przesy�
 
 ## 3. Rozpoznawanie mowy
 
-Mikrofon jest używany wyłącznie wtedy, gdy dotkniesz ikony wyszukiwania głosowego przy wpisywaniu miejsca docelowego. Nagranie jest przetwarzane przez systemową usługę rozpoznawania mowy Androida i nie jest przez Odolirę zapisywane ani nigdzie przechowywane.
+Mikrofon jest używany wyłącznie wtedy, gdy dotkniesz przycisku „Podyktuj trasę” w planowaniu trasy. Nagranie jest przetwarzane przez systemową usługę rozpoznawania mowy Androida i nie jest przez Odolirę zapisywane ani nigdzie przechowywane. Aby dopasować podyktowane miejsca do właściwych nazw, rozpoznany tekst — a jeśli udzielono dostępu do lokalizacji, także przybliżona pozycja, aby najpierw szukać w pobliżu — jest wysyłany do usługi wyszukiwania Photon (sekcja 4).
+
+Komunikaty głosowe nawigacji („Za 200 metrów skręć w prawo”) są tworzone przez syntezator mowy zainstalowany w telefonie. Odolira przekazuje mu jedynie tekst komunikatu i niczego nie zapisuje. Komunikaty można wyłączyć w ustawieniach lub w trakcie nawigacji.
 
 ## 4. Usługi zewnętrzne
 
@@ -71,7 +74,7 @@ Pytania dotyczące prywatności możesz kierować na adres: [elment.android@gmai
 
 # Odolira – Privacy Policy
 
-*Last updated: September 29, 2026*
+*Last updated: October 10, 2026*
 
 Odolira is a private bike garage, route planner, and cycling navigation app that runs locally on your phone. This page states plainly what data the app processes and why — no account, no profiling, no selling data.
 
@@ -81,6 +84,7 @@ Your bikes, routes (planned, recorded, imported), service history, bike photos, 
 
 - **Bikes, routes and service history** — local only, never leave the device.
 - **Recording in progress** — while you record a ride, the app temporarily saves its progress on the phone so it can be recovered if the app is closed unexpectedly. This stays on the device only and is deleted when the recording is finished or discarded.
+- **Navigation in progress** — while navigating, the app temporarily saves the route, the checkpoints passed and the ride so far on the phone, so the ride can be resumed if the app is closed unexpectedly. This stays on the device only and is deleted when the ride is saved or discarded.
 - **Biometrics** — fingerprint or face unlock is handled by Android. The app never receives or stores any biometric data, only whether verification succeeded.
 - **Account / sign-in** — none, the app works without an account.
 - **Analytics & ads** — none, zero tracking, zero ad SDKs.
@@ -93,7 +97,9 @@ Coordinates needed to calculate a route or search for a place are sent to the th
 
 ## 3. Speech recognition
 
-The microphone is used only when you tap the voice-search icon while entering a destination. The recording is processed by Android's built-in speech recognition service and is never saved or stored anywhere by Odolira.
+The microphone is used only when you tap the "Say your route" button while planning a route. The recording is processed by Android's built-in speech recognition service and is never saved or stored anywhere by Odolira. To match the spoken places to their proper names, the recognized text — and, if location access was granted, your approximate position, so nearby places are tried first — is sent to the Photon search service (section 4).
+
+Spoken navigation prompts ("In 200 meters, turn right") are produced by the text-to-speech engine installed on your phone. Odolira only hands it the text of the prompt and stores nothing. Prompts can be turned off in Settings or during navigation.
 
 ## 4. Third-party services
 
