@@ -4,7 +4,7 @@ title: Odolira – Privacy Policy
 
 # Polityka prywatności aplikacji Odolira
 
-*Ostatnia aktualizacja: 10 października 2026*
+*Ostatnia aktualizacja: 11 października 2026*
 
 Odolira to prywatny "garaż" rowerów, planer tras i nawigacja rowerowa, która działa lokalnie na Twoim telefonie. Ta strona opisuje wprost, jakie dane aplikacja przetwarza i dlaczego — bez konta, bez profilowania, bez sprzedawania danych.
 
@@ -23,9 +23,9 @@ Rowery, trasy (zaplanowane, nagrane, zaimportowane), historia serwisowa, zdjęci
 
 ## 2. Lokalizacja GPS
 
-Aplikacja prosi o dostęp do lokalizacji, aby pokazać Twoją pozycję na mapie, prowadzić nawigację turn-by-turn oraz nagrywać przejechaną trasę (dystans, wysokość, ślad GPS) podczas aktywnego nagrywania. Lokalizacja jest używana tylko wtedy, gdy dana funkcja jest aktywnie włączona — poprzez usługę pierwszoplanową z widocznym, stałym powiadomieniem. Aplikacja nigdy nie prosi o dostęp do lokalizacji w tle.
+Aplikacja prosi o dostęp do lokalizacji, aby pokazać Twoją pozycję na mapie, prowadzić nawigację turn-by-turn oraz nagrywać przejechaną trasę (dystans, wysokość, ślad GPS) podczas aktywnego nagrywania. Lokalizacja jest używana tylko wtedy, gdy dana funkcja jest aktywnie włączona — poprzez usługę pierwszoplanową z widocznym, stałym powiadomieniem. Jeśli zamkniesz aplikację w trakcie nawigacji, ta sama usługa (z widocznym powiadomieniem „Nawigacja w tle”) dalej nagrywa przejazd, dopóki nie wrócisz do nawigacji albo jej nie zakończysz. Aplikacja nigdy nie prosi o dostęp do lokalizacji w tle.
 
-Współrzędne potrzebne do wyznaczenia trasy lub wyszukania miejsca są przesyłane do zewnętrznych usług routingu i map opisanych w sekcji 4 — nigdy do żadnego serwera Odoliry, bo taki serwer nie istnieje.
+Współrzędne potrzebne do wyznaczenia trasy lub wyszukania miejsca są przesyłane do zewnętrznych usług routingu i map opisanych w sekcji 4 — nigdy do żadnego serwera Odoliry, bo taki serwer nie istnieje. Gdy wskażesz punkt na mapie, jego współrzędne trafiają do usługi Photon, aby pokazać nazwę miejsca.
 
 ## 3. Rozpoznawanie mowy
 
@@ -44,7 +44,7 @@ Do działania map, wyszukiwania miejsc i wyznaczania tras Odolira korzysta z nie
 
 ## 5. Powiadomienia
 
-Podczas nagrywania przejazdu lub aktywnej nawigacji aplikacja wyświetla lokalne powiadomienie (pauza/wznów/zakończ). Po zapisaniu jazdy może też przypomnieć o zbliżającym się serwisie roweru. Powiadomienia te są generowane wyłącznie na urządzeniu i nie pochodzą z żadnego serwera push.
+Podczas nagrywania przejazdu lub aktywnej nawigacji aplikacja wyświetla lokalne powiadomienie (pauza/wznów/zakończ). Może też przypomnieć o zbliżającym się serwisie roweru — po zapisaniu jazdy albo przy codziennym sprawdzeniu terminów, które odbywa się wyłącznie na telefonie, bez połączenia z internetem. Powiadomienia te są generowane wyłącznie na urządzeniu i nie pochodzą z żadnego serwera push.
 
 ## 6. Udostępnianie danych
 
@@ -74,7 +74,7 @@ Pytania dotyczące prywatności możesz kierować na adres: [elment.android@gmai
 
 # Odolira – Privacy Policy
 
-*Last updated: October 10, 2026*
+*Last updated: October 11, 2026*
 
 Odolira is a private bike garage, route planner, and cycling navigation app that runs locally on your phone. This page states plainly what data the app processes and why — no account, no profiling, no selling data.
 
@@ -91,9 +91,9 @@ Your bikes, routes (planned, recorded, imported), service history, bike photos, 
 
 ## 2. GPS location
 
-The app requests location access to show your position on the map, provide turn-by-turn navigation, and record your ride (distance, elevation, GPS track) while recording is active. Location is only used while the relevant feature is actively running, via a foreground service with a persistent, visible notification. The app never requests background location access.
+The app requests location access to show your position on the map, provide turn-by-turn navigation, and record your ride (distance, elevation, GPS track) while recording is active. Location is only used while the relevant feature is actively running, via a foreground service with a persistent, visible notification. If you close the app while navigating, that same service (with a visible "Navigation in the background" notification) keeps recording the ride until you return to the navigation or end it. The app never requests background location access.
 
-Coordinates needed to calculate a route or search for a place are sent to the third-party routing and map services described in section 4 — never to an Odolira server, since no such server exists.
+Coordinates needed to calculate a route or search for a place are sent to the third-party routing and map services described in section 4 — never to an Odolira server, since no such server exists. When you pick a point on the map, its coordinates are sent to the Photon service to show the place's name.
 
 ## 3. Speech recognition
 
@@ -112,7 +112,7 @@ To provide maps, place search, and route calculation, Odolira relies on independ
 
 ## 5. Notifications
 
-While recording a ride or navigating, the app shows a local notification (pause/resume/finish). After a ride is saved it may also remind you that a bike service is coming up. These notifications are generated entirely on-device and don't come from any push server.
+While recording a ride or navigating, the app shows a local notification (pause/resume/finish). It may also remind you that a bike service is coming up — after a ride is saved, or during a daily check of due dates that runs only on the phone, with no internet connection. These notifications are generated entirely on-device and don't come from any push server.
 
 ## 6. Data sharing
 
